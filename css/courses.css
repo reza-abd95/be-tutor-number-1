@@ -1,5 +1,10 @@
 @import url(../css/slider.css);
 
+@font-face {
+  font-family: DM-Sans-Regular;
+  src: url(../assets/fonts/DM-Sans-Regular.woff2);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,9 +13,47 @@
 }
 
 
+.categories{
+  width: 100%;  
+}
 
+.categories__Container{
+  max-width: 100%;
+  padding: 60px 33px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories__box__container{
+  width: 50%;
+  padding: 2px;
+}
+.categories__box__container a{
+  text-decoration: none;
+  color: #858585;
+  font-family: DM-Sans-Regular;
 
+}
 
+.categories__box{
+  display:flex ;
+  align-items: center;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #F7F7F7;
+  font-size: 1.3rem;
+  transition: 0.3s;
+
+}
+
+.categories__box:hover{
+  background-color: #f97c5f;
+  color: #ffffff;
+}
+
+.categories__box--choice{
+  background-color: #f97c5f;
+  color: #ffffff;
+}
 
 
 
