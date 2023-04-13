@@ -1,0 +1,84 @@
+@font-face {
+    font-family: DM-Serif-Regular;
+    src: url(../assets/fonts/DM-Serif-Display-Regular.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+
+
+
+.subheader{
+    width: 100%;
+    background-image: url(../assets/images/tutor-subheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffeada;
+
+}
+.subheader__container{
+    width: 100%;
+    padding: 0 33px;
+}
+
+
+.subheader__title{
+    font-size: 4.2rem;
+    font-family:DM-Serif-Regular ;
+    font-weight: 400;
+    padding :130px 0 80px 0;
+}
+
+
+
+
+@media (min-width: 480px) {
+
+    .subheader__title{
+        font-size: 5.3rem;
+    }
+    .subheader__container{
+        width: 480px;
+    }
+  }
+@media (min-width: 770px) {
+    .subheader__title{
+        padding :240px 0 140px 0;
+        font-size: 6rem;
+
+    }
+    .subheader__container{
+        width: 695px;
+    }
+  }
+  @media (min-width: 970px) {
+    .subheader__container{
+        padding: 0;
+    }
+
+    .subheader__title{
+        font-size: 7rem;
+
+    }
+    .subheader__container{
+        width: 920px;
+    }
+
+  }
+  @media (min-width: 1240px) {
+
+    .subheader__container{
+        width: 1040px;
+    }
+
+  }
+
