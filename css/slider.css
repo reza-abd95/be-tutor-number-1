@@ -48,6 +48,8 @@
     }
     .subheader__container{
         width: 480px;
+        padding: 0 0px;
+
     }
   }
 @media (min-width: 770px) {
@@ -58,6 +60,7 @@
     }
     .subheader__container{
         width: 695px;
+        
     }
   }
   @media (min-width: 970px) {
