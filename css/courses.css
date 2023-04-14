@@ -13,6 +13,7 @@
 }
 
 
+
 .categories{
   width: 100%;  
   display: flex;
@@ -70,6 +71,8 @@
   } 
   .categories__Container{
     width: 480px;
+    padding: 60px 0px 30px;
+
   }
   }
 
