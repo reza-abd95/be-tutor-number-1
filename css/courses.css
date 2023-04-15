@@ -82,7 +82,6 @@ a{
   align-items: center;
   flex-direction: column;
   padding: 0 33px;
-  margin-bottom: 40px;
 }
 
 .post__box{
@@ -91,6 +90,8 @@ a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
+
 }
 
 .post__img{
@@ -230,6 +231,38 @@ a{
     line-height: 28px;
     font-weight: 400;  
   }
+  .post{
+    width: 695px;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: start;
+  }
+
+  .post__box{
+    width: 32%;
+  }
+  .post__like{
+    right: 15px;
+    top: 15px;
+  }
+  .post__title a{
+    font-size: 2.7rem;
+
+  }
+  .post__tag{
+    font-size: 1.4rem ;
+    line-height: 24px;
+    margin-right: 8px;
+
+  }
+
+  .post__desc{
+    padding: 20px 25px;
+
+  }
+
   }
 
 @media (min-width: 970px) {
@@ -247,8 +280,56 @@ a{
     line-height: 28px;
     font-weight: 400;  
   }
+  .post{
+    width: 920px;
+    gap: 20px;
+ 
   }
+  .post__tag{
+    font-size: 1.6rem ;
+    margin-right: 8px;
+  }
+  .post__box{
+    width: 31%;
+  }
+  .post__desc{
+    padding: 25px 35px;
 
+  }
+  .post__title a{
+    font-size: 3.2rem;
+
+  }
+  .post__title p {
+    font-size: 1.6rem;
+    line-height: 28px;
+    margin: 0;
+  }
+  .post__time{
+    font-size: 1.6rem;
+  }
+  
+  .fa-clock{
+    font-size: 1.6rem;
+    padding-top: 15px;
+  }
+  .post__like{
+
+    padding: 6px 14px;
+    right: 25px;
+    top: 25px;
+    border-radius: 20px;
+    z-index: 2;
+  }
+  
+  .like__num{
+    font-size: 1.6rem;
+  }
+  
+  .fa-heart{
+    font-size: 1.6rem;
+  }
+}
 @media (min-width: 1240px) {
   .categories__box{
     font-size: 1.6rem;
@@ -261,6 +342,14 @@ a{
   }
   .categories__box__container{
     width: 20%;
+  }
+  .post{
+    width: 1040px;
+    gap: 20px;
+ 
+  }
+  .post__box{
+    width: 31.5%;
   }
 }
 
