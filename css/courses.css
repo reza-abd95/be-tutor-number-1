@@ -112,7 +112,7 @@ a{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  padding: 4px 13px;
+  padding: 6px 14px;
   background-color: #272727;
   position: absolute;
   right: 25px;
@@ -132,8 +132,6 @@ a{
   color: white;
   margin-right: 5px;
 }
-
-
 
 
 .post__desc{
@@ -204,7 +202,13 @@ a{
     padding: 60px 0px 30px;
 
   }
+  .post__title a{
+    font-size: 2.4rem;
 
+  }
+  .post__box{
+    width: 480px;
+  }
   }
 
 @media (min-width: 770px) {
