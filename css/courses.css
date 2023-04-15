@@ -82,6 +82,7 @@ a{
   align-items: center;
   flex-direction: column;
   padding: 0 33px;
+  margin-bottom: 40px;
 }
 
 .post__box{
@@ -98,11 +99,42 @@ a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+
 }
 
 .post__img img{
   width: 100%;
 }
+
+.post__like{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px 13px;
+  background-color: #272727;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.like__num{
+  font-size: 1.3rem;
+  color: #a8a8a8;
+  font-family: DM-Sans-Regular ;
+}
+
+.fa-heart{
+  font-size: 1.3rem;
+  color: white;
+  margin-right: 5px;
+}
+
+
+
 
 .post__desc{
   width: 100%;
@@ -172,7 +204,7 @@ a{
     padding: 60px 0px 30px;
 
   }
-  
+
   }
 
 @media (min-width: 770px) {
