@@ -15,15 +15,12 @@
 a{
   text-decoration: none;
 }
-
-
 .categories{
   width: 100%;  
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .categories__Container{
   max-width: 100%;
   padding: 60px 33px 30px;
@@ -40,9 +37,7 @@ a{
   color: #858585;
   font-family: DM-Sans-Regular;
   line-height: 19px;
-  
 }
-
 .categories__box{
   display:flex ;
   align-items: center;
@@ -51,19 +46,15 @@ a{
   border: 1px solid #F7F7F7;
   font-size: 1.3rem;
   transition: 0.3s;
-
 }
-
 .categories__box:hover{
   background-color: #f97c5f;
   color: #ffffff;
 }
-
 .categories__box--choice{
   background-color: #f97c5f;
   color: #ffffff;
 }
-
 
 /* POST SECTION */
 
@@ -74,7 +65,6 @@ a{
   align-items: center;
   flex-direction: column;
 }
-
 .post{
   width: 100%;
   display: flex;
@@ -83,7 +73,6 @@ a{
   flex-direction: column;
   padding: 0 33px;
 }
-
 .post__box{
   width: 100%;
   display: flex;
@@ -91,9 +80,7 @@ a{
   align-items: center;
   flex-direction: column;
   margin-bottom: 40px;
-
 }
-
 .post__img{
   width: 100%;
   display: flex;
@@ -101,13 +88,10 @@ a{
   align-items: center;
   flex-direction: column;
   position: relative;
-
 }
-
 .post__img img{
   width: 100%;
 }
-
 .post__like{
   display: flex;
   justify-content: center;
@@ -121,22 +105,16 @@ a{
   border-radius: 20px;
   z-index: 2;
 }
-
 .like__num{
   font-size: 1.3rem;
   color: #a8a8a8;
   font-family: DM-Sans-Regular ;
 }
-
-
-
 .fa-heart{
   font-size: 1.3rem;
   color: white;
   margin-right: 5px;
 }
-
-
 .post__desc{
   width: 100%;
   padding: 25px 35px;
@@ -157,7 +135,6 @@ a{
   border-radius: 20px;
   margin: 0 5px 5px 0;
 }
-
 .post__title{
   width: 100%;
   display: flex;
@@ -172,14 +149,12 @@ a{
   font-family: 'Times New Roman';
   color: #1d262d;
 }
-
 .post__title p {
   font-family: DM-Sans-Regular ;
   font-size: 1.3rem;
   color: #7D736D;
   margin-bottom: 15px;
 }
-
 .post__time{
   margin-top: 20px;
   padding: 15px 0 0;
@@ -188,7 +163,6 @@ a{
   font-size: 1.3rem;
   color: #a8a8a8;
 }
-
 .fa-clock{
   color: #a8a8a8;
   margin-right: 3px;
@@ -268,7 +242,6 @@ a{
     padding: 20px 25px;
 
   }
-
   }
 
 @media (min-width: 970px) {
