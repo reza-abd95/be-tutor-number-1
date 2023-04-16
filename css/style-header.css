@@ -10,10 +10,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-}
-.full {
-}
 .header {
     display: flex;
     justify-content: center;
@@ -73,6 +69,9 @@ display: none;
     border-radius: 50px;
     cursor: pointer;
 }
+.header__button-box:hover {
+    background-color: #F2F2F2;
+}
 .header__button-text {
     color: black;
     font-family: abj;
@@ -90,9 +89,6 @@ display: none;
     align-items: center;
     cursor: pointer;
 }
-.header__menue-element {
-
-}
 .header__menue-link {
     text-decoration: none;
     color: black;
@@ -104,6 +100,105 @@ display: none;
     font-family: abj;
     display: flex;
     align-items: center;
+}
+
+
+/*........... header slide .......... */
+
+
+.header__slide {
+    width: 250px;
+    background-color: #191919;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    height: 100%;
+    transition: 0.7s;
+    z-index: 4;
+}
+.slide__list-element {
+    list-style: none;
+    margin-right: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom:1px solid #ffffff08;
+}
+.slide__list-link {
+    width: 175px;
+    text-decoration: none;
+    color: #7d736d;
+    padding: 10px 11px 5px 20px;
+}
+.slide__list-link:hover {
+    color: #fff;
+}
+.slide__list-text {
+    font-family: abj;
+}
+.header__slide-close {
+    height: 60px;
+    position: relative;
+}
+.header__slide-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.slide__button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 35px;
+    border-radius: 30px;
+}
+.slide__button-box:hover{
+    background-color: #F2F2F2;
+}
+.slide__button-text {
+    text-align: center;
+}
+.slide__button-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 21px;
+    font-family: abj;
+}
+.fa-angle-right {
+    color: red;
+    font-size: 1.3rem !important;
+    padding-left: 10px;
+}
+.closeicon {
+    display: flex !important;
+    justify-content: end;
+    align-items: start;
+    color: #a6a6a6;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-right: 13px;
+    padding-top: 13px;
+}
+.closeicon:hover { 
+    color: #fff;
+}
+.slide-angle-icon {
+    display: flex !important;
+}
+.dark-container{
+    background-color: #191919;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: none;
 }
 @media screen and (min-width: 770px) {
     .header__button {
