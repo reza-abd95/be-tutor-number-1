@@ -114,7 +114,7 @@ display: none;
 }
 .header__menue-link {
     text-decoration: none;
-    color: black;
+    color: #1D262D;
 }
 .header__menue-text {
     height: 100px;
@@ -158,7 +158,7 @@ display: none;
     color: #fff;
 }
 .slide__list-text {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-family: abj;
     display: flex;
     align-items: center;
@@ -186,9 +186,9 @@ display: none;
 }
 .slide__button-text {
     text-align: center;
-    color: black;
+    color: #1D262D;
     font-family: abj;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 .slide__button-elements {
     display: flex;
