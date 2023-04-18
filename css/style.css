@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,6 @@
 
 /*£££££££££££££££££*/
 /*    mobile    */
-
 
 
 .container {
@@ -88,7 +87,7 @@
 .title {
     width: 200px;
     color: #1D262D;
-    font-family: my-font2,sans-serif;
+    font-family: my-font2, sans-serif;
     font-size: 3.2rem;
     font-weight: normal;
     line-height: 35px;
@@ -164,14 +163,14 @@
 
 
 }
-.subject__categories{
-    width:100%;
+
+.subject__categories {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 100px 33px;
-
 
 
 }
@@ -222,11 +221,13 @@
     line-height: 20px;
     cursor: pointer;
 }
-.button2:hover{
+
+.button2:hover {
     background-color: #ef6c4e;
 
 }
-.iconify{
+
+.iconify {
     font-family: my-font5, sans-serif;
     font-size: 1.3rem;
     font-weight: lighter;
@@ -275,7 +276,8 @@
     background-position: center;
     width: 100%;
 }
-.describe__about-us{
+
+.describe__about-us {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -284,7 +286,8 @@
     padding: 110px 33px 0 33px;
 
 }
-.question__section{
+
+.question__section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -293,19 +296,22 @@
     gap: 31px;
     padding: 0 0 15px 0;
 }
-.question-answer{
+
+.question-answer {
 
 }
-.question{
+
+.question {
     color: #1D262D;
-    font-family: my-font2,sans-serif;
+    font-family: my-font2, sans-serif;
     font-weight: normal;
     line-height: 36px;
     font-size: 3rem;
     padding: 0 0 31px 0;
 
 }
-.answer{
+
+.answer {
     color: #8C817A;
     width: 100%;
     font-family: my-font5, serif;
@@ -316,12 +322,14 @@
     line-height: 19px;
 
 }
-.about-us-button{
+
+.about-us-button {
     width: 100%;
     padding: 5px 0;
 
 }
-.button3{
+
+.button3 {
     font-family: my-font4, sans-serif;
     background-color: #F97C5F;
     border: none;
@@ -341,12 +349,14 @@
 
 
 }
-.button3:hover{
+
+.button3:hover {
     background-color: #ef6c4e;
 
 
 }
-.describe__section{
+
+.describe__section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -356,28 +366,33 @@
     padding: 0 0 15px 0;
 
 }
-.elerning{
+
+.elerning {
     width: 100%;
     gap: 50px;
 
 }
-.elerning_img{
+
+.elerning_img {
     padding-bottom: 30px;
 
 
 }
-.elerning_describe{
+
+.elerning_describe {
 
 }
-.elerning_title{
+
+.elerning_title {
     color: #1D262D;
-    font-family: my-font2,sans-serif;
+    font-family: my-font2, sans-serif;
     font-size: 1.3rem;
     font-weight: lighter;
     padding-bottom: 15px;
 
 }
-.title_describe{
+
+.title_describe {
     color: #8C817A;
     width: 100%;
     font-family: my-font5, serif;
@@ -392,7 +407,8 @@
     width: 100%;
 
 }
-.work_section{
+
+.work_section {
     width: 100%;
     height: auto;
     display: flex;
@@ -404,16 +420,18 @@
     /*background-color: #8C817A;*/
 
 }
-.work_title{
+
+.work_title {
     color: #1D262D;
-    font-family: my-font2,serif;
+    font-family: my-font2, serif;
     font-weight: normal;
     font-size: 3rem;
     line-height: 36px;
     padding-bottom: 45px;
 
 }
-.work_step{
+
+.work_step {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -421,17 +439,20 @@
     align-items: center;
 
 }
-.step1{
+
+.step1 {
     width: 100%;
 
 }
-.step1_image{
+
+.step1_image {
     width: 100%;
     padding: 12px 0 5px 0;
     margin-bottom: 10px;
 
 }
-.describe__section-work{
+
+.describe__section-work {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -442,11 +463,13 @@
     margin-left: 5px;
 
 }
-.step1_number{
+
+.step1_number {
 
 }
-.step1_describe{
-    font-family: my-font5,sans-serif;
+
+.step1_describe {
+    font-family: my-font5, sans-serif;
     font-size: 1.3rem;
     line-height: 19px;
     font-weight: lighter;
@@ -466,36 +489,43 @@
 .main__part7 {
 
 }
+
 @media screen and (min-width: 500px) {
-    .slider-container{
+    .slider-container {
         padding: 170px 33px;
 
 
     }
-    .title{
+
+    .title {
         font-size: 5rem;
         width: 330px;
         line-height: 50px;
     }
-    .slider__button{
+
+    .slider__button {
         padding: 15px;
     }
-    .button1{
+
+    .button1 {
         width: 130px;
         height: 40px;
         font-size: 1.4rem;
 
 
     }
-    .subjects{
+
+    .subjects {
         width: 550px;
         padding: 0 33px;
 
 
     }
-    .headline2{
+
+    .headline2 {
         font-size: 3.8rem;
     }
+
     .categories {
         width: 550px;
         display: flex;
@@ -504,74 +534,87 @@
         padding: 0 33px;
         gap: 13px;
     }
-    .describe__about-us{
+
+    .describe__about-us {
         width: 100%;
     }
-    .question__section{
+
+    .question__section {
         width: 480px;
     }
-    .question{
+
+    .question {
         width: 450px;
         font-size: 3.8rem;
         line-height: 45px;
     }
-    .answer{
+
+    .answer {
         width: 450px;
         font-size: 1.3rem;
         line-height: 21px;
 
     }
 
-    .describe__section{
+    .describe__section {
         width: 480px;
     }
-    .elerning_title{
+
+    .elerning_title {
         font-size: 1.5rem;
         padding-bottom: 17px;
     }
-    .title_describe{
+
+    .title_describe {
         line-height: 21px;
 
     }
-    .work_section{
+
+    .work_section {
         width: 100%;
         padding: 120px 33px;
 
     }
-    .work_title{
+
+    .work_title {
         font-size: 3.8rem;
         line-height: 45px;
         padding-bottom: 45px;
 
     }
-    .work_step{
+
+    .work_step {
         width: 100%;
         padding-top: 10px;
 
     }
-    .step1{
+
+    .step1 {
         width: 100%;
 
     }
-    .step1_image{
+
+    .step1_image {
         width: 100%;
         padding: 0 0 0 0;
 
     }
-    .describe__section-work{
+
+    .describe__section-work {
         gap: 20px;
         margin-left: 32px;
 
     }
-    .step1_number{
+
+    .step1_number {
         margin: 7px 0 0 4px;
 
     }
-    .step1_describe{
+
+    .step1_describe {
         font-size: 1.4rem;
         line-height: 21px;
         margin-bottom: 25px;
-
 
 
     }
@@ -632,13 +675,14 @@
     }
 
 
-    .slider__button{
+    .slider__button {
         display: flex;
         justify-content: start;
         align-items: start;
         padding: 5px 0 0 0;
     }
-    .button1{
+
+    .button1 {
         width: 98px;
         height: 32px;
         font-size: 1.1rem;
@@ -657,28 +701,34 @@
         width: 100%;
         height: auto;
     }
-    .subject__categories{
+
+    .subject__categories {
         width: 100%;
         padding: 100px 33px;
     }
-    .subjects{
+
+    .subjects {
         width: 760px;
         flex-direction: row;
         padding: 0 40px 20px 40px;
 
     }
-    .headline2{
+
+    .headline2 {
         font-size: 4.3rem;
     }
-    .button__subject{
+
+    .button__subject {
         padding-top: 10px;
 
     }
-    .button2{
+
+    .button2 {
         width: 190px;
         height: 45px;
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.5rem;
     }
 
@@ -699,7 +749,8 @@
         background-color: #FFF8F3;
 
     }
-    .describe__about-us{
+
+    .describe__about-us {
         width: 100%;
         height: auto;
         display: flex;
@@ -708,7 +759,8 @@
         gap: 40px;
 
     }
-    .question__section{
+
+    .question__section {
         width: 250px;
         display: flex;
         flex-direction: column;
@@ -719,39 +771,45 @@
         gap: 50px;
 
     }
-    .question-answer{
+
+    .question-answer {
         width: 100%;
 
     }
-    .question{
+
+    .question {
         width: 100%;
         font-size: 4.3rem;
         line-height: 50px;
 
 
-
     }
-    .answer{
+
+    .answer {
         width: 100%;
         font-size: 1.4rem;
         line-height: 25px;
 
 
     }
-    .about-us-button{
+
+    .about-us-button {
 
     }
-    .button3{
+
+    .button3 {
         width: 150px;
         height: 45px;
         border-radius: 30px;
 
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.4rem;
 
     }
-    .describe__section{
+
+    .describe__section {
         width: 450px;
         display: flex;
         flex-direction: row;
@@ -760,7 +818,8 @@
         align-items: start;
         gap: 8px;
     }
-    .elerning{
+
+    .elerning {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -770,28 +829,33 @@
         gap: 2px;
         padding: 5px 2px 37px 0;
     }
-    .elerning_img{
+
+    .elerning_img {
         width: 100%;
         /*padding-bottom: 35px;*/
 
     }
-    .elerning_describe{
+
+    .elerning_describe {
         width: 100%;
 
     }
-    .elerning_title{
+
+    .elerning_title {
         width: 100%;
         font-size: 1.7rem;
         line-height: 26px;
 
     }
-    .title_describe{
+
+    .title_describe {
         width: 100%;
         font-size: 1.4rem;
         line-height: 24px;
 
     }
-    .work_section{
+
+    .work_section {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -801,13 +865,15 @@
         padding: 120px 33px;
 
     }
-    .work_title{
+
+    .work_title {
         font-size: 4.3rem;
         line-height: 51px;
         /*padding-bottom: 75px;*/
 
     }
-    .work_step{
+
+    .work_step {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -818,25 +884,30 @@
         padding-top: 30px;
 
     }
-    .step1{
+
+    .step1 {
         width: 100%;
     }
-    .step1_image{
+
+    .step1_image {
         width: 100%;
 
 
     }
-    .describe__section-work{
+
+    .describe__section-work {
         font-size: 1.5rem;
         line-height: 24;
         gap: 20px;
         margin: -38px -10px 0 2px;
-        padding: 0  0 50px 0;
+        padding: 0 0 50px 0;
     }
-    .step1_number{
-        padding: 0 0 25px 10px ;
+
+    .step1_number {
+        padding: 0 0 25px 10px;
     }
-    .step1_describe{
+
+    .step1_describe {
         width: 120px;
         height: 100px;
         font-size: 1.5rem;
@@ -844,7 +915,6 @@
         /*margin: 0;*/
         /*padding: 0;*/
         /*margin: 0 0 105px 17px;*/
-
 
 
     }
@@ -894,7 +964,8 @@
         padding-top: 10px;
 
     }
-    .button1{
+
+    .button1 {
         font-size: 1.4rem;
         line-height: 28;
         width: 127px;
@@ -915,27 +986,33 @@
         /*height: auto;*/
 
     }
-    .subject__categories{
+
+    .subject__categories {
         width: 100%;
         padding: 100px 0;
 
     }
-    .subjects{
+
+    .subjects {
         width: 920px;
         padding: 20px 5px;
     }
-    .headline2{
+
+    .headline2 {
         font-size: 5rem;
     }
-    .button__subject{
+
+    .button__subject {
         padding-top: 10px;
 
     }
-    .button2{
+
+    .button2 {
         width: 200px;
         height: 50px;
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.6rem;
     }
 
@@ -952,122 +1029,141 @@
         padding: 0;
 
     }
-    .categorie-name{
+
+    .categorie-name {
         font-size: 1.9rem;
     }
-    .describe__about-us{
+
+    .describe__about-us {
         width: 100%;
         padding: 100px 0 100px 20px;
         gap: 40px;
 
     }
-    .question__section{
+
+    .question__section {
         width: 350px;
         padding-left: 0;
         margin-bottom: 163px;
         gap: 50px;
 
     }
-    .question-answer{
+
+    .question-answer {
         width: 100%;
 
     }
-    .question{
+
+    .question {
         width: 100%;
         font-size: 5rem;
         line-height: 60px;
 
 
-
     }
-    .answer{
+
+    .answer {
         width: 100%;
         font-size: 1.6rem;
         line-height: 28px;
 
 
     }
-    .about-us-button{
+
+    .about-us-button {
 
     }
-    .button3{
+
+    .button3 {
         width: 165px;
         height: 48px;
         border-radius: 30px;
 
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.6rem;
 
     }
-    .describe__section{
+
+    .describe__section {
         width: 600px;
     }
-    .elerning{
+
+    .elerning {
         width: 270px;
         height: auto;
     }
-    .elerning_img{
+
+    .elerning_img {
         width: 100%;
 
     }
-    .elerning_describe{
+
+    .elerning_describe {
         width: 100%;
 
     }
-    .elerning_title{
+
+    .elerning_title {
         width: 100%;
         font-size: 2rem;
         line-height: 30px;
 
     }
-    .title_describe{
+
+    .title_describe {
         width: 100%;
         font-size: 1.6rem;
         line-height: 28px;
 
     }
-    .work_section{
+
+    .work_section {
         width: 100%;
         padding: 120px 33px;
 
     }
-    .work_title{
+
+    .work_title {
         font-size: 5rem;
         line-height: 60px;
     }
-    .work_step{
+
+    .work_step {
         width: 710px;
         padding-top: 30px;
 
     }
-    .step1{
+
+    .step1 {
         width: 100%;
     }
-    .step1_image{
+
+    .step1_image {
         width: 100%;
 
 
     }
-    .describe__section-work{
+
+    .describe__section-work {
         width: 320px;
         gap: 20px;
         margin: -40px -10px 0 2px;
-        padding: 0  0 50px 5px;
+        padding: 0 0 50px 5px;
     }
-    .step1_number{
-        padding: 0 0 25px 10px ;
+
+    .step1_number {
+        padding: 0 0 25px 10px;
     }
-    .step1_describe{
+
+    .step1_describe {
         width: 190px;
         height: 100px;
         font-size: 1.8rem;
         line-height: 28px;
 
     }
-
-
-
 
 
 }
@@ -1110,7 +1206,8 @@
         padding-top: 15px;
 
     }
-    .button1{
+
+    .button1 {
         font-size: 1.7rem;
         width: 160px;
         height: 50px;
@@ -1121,7 +1218,7 @@
 
     .slider__image {
         width: 50%;
-        height:auto;
+        height: auto;
 
 
     }
@@ -1131,27 +1228,33 @@
         height: auto;
 
     }
-    .subject__categories{
+
+    .subject__categories {
         width: 100%;
         padding: 100px 0;
 
     }
-    .subjects{
+
+    .subjects {
         width: 1045px;
         padding: 20px 5px;
     }
-    .headline2{
+
+    .headline2 {
         font-size: 5.2rem;
     }
-    .button__subject{
+
+    .button__subject {
         padding-top: 10px;
 
     }
-    .button2{
+
+    .button2 {
         width: 195px;
         height: 50px;
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.6rem;
     }
 
@@ -1168,120 +1271,139 @@
         padding: 0;
 
     }
-    .categorie-name{
+
+    .categorie-name {
         font-size: 1.9rem;
     }
-    .describe__about-us{
+
+    .describe__about-us {
         width: 100%;
         padding: 100px 0 100px 20px;
         gap: 40px;
 
     }
-    .question__section{
+
+    .question__section {
         width: 350px;
         padding-left: 0;
         margin-bottom: 163px;
         gap: 50px;
 
     }
-    .question-answer{
+
+    .question-answer {
         width: 100%;
 
     }
-    .question{
+
+    .question {
         width: 100%;
         font-size: 5rem;
         line-height: 60px;
 
 
-
     }
-    .answer{
+
+    .answer {
         width: 100%;
         font-size: 1.6rem;
         line-height: 28px;
 
 
     }
-    .about-us-button{
+
+    .about-us-button {
 
     }
-    .button3{
+
+    .button3 {
         width: 165px;
         height: 48px;
         border-radius: 30px;
 
     }
-    .iconify{
+
+    .iconify {
         font-size: 1.6rem;
 
     }
-    .describe__section{
+
+    .describe__section {
         width: 600px;
     }
-    .elerning{
+
+    .elerning {
         width: 270px;
         height: auto;
     }
-    .elerning_img{
+
+    .elerning_img {
         width: 100%;
 
     }
-    .elerning_describe{
+
+    .elerning_describe {
         width: 100%;
 
     }
-    .elerning_title{
+
+    .elerning_title {
         width: 100%;
         font-size: 2rem;
         line-height: 30px;
 
     }
-    .title_describe{
+
+    .title_describe {
         width: 100%;
         font-size: 1.6rem;
         line-height: 28px;
 
     }
-    .work_section{
+
+    .work_section {
         width: 100%;
         padding: 120px 33px;
 
     }
-    .work_title{
+
+    .work_title {
         font-size: 5rem;
         line-height: 60px;
     }
-    .work_step{
+
+    .work_step {
         width: 710px;
         padding-top: 30px;
 
     }
-    .step1{
+
+    .step1 {
         width: 100%;
     }
-    .step1_image{
+
+    .step1_image {
         width: 100%;
-
-
     }
-    .describe__section-work{
+
+    .describe__section-work {
         width: 355px;
         gap: 20px;
         margin: -40px -10px 0 7px;
-        padding: 0  0 50px 5px;
+        padding: 0 0 50px 5px;
     }
-    .step1_number{
-        padding: 0 0 25px 10px ;
+
+    .step1_number {
+        padding: 0 0 25px 10px;
     }
-    .step1_describe{
+
+    .step1_describe {
         width: 220px;
         height: 100px;
         font-size: 1.8rem;
         line-height: 28px;
 
     }
-
 
 
 }
