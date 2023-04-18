@@ -19,6 +19,7 @@
     flex-flow: column;
     width: 100%;
     padding: 70px 33px;
+    border-bottom: 1px solid #7d736d2d;
 }
 .footer__address {
     width: 100%;
@@ -128,12 +129,14 @@
     font-size: 2.4rem;
     font-family: tit;
     color: #1d262d;
+    text-align: right;
 }
 .calltoaction-text {
     color: #7d736d;
     font-family: desc;
     font-size: 1.3rem;
     margin-bottom: 15px;
+    text-align: right;
 }
 .copyrightbox {
     display: flex;
@@ -141,7 +144,6 @@
     align-items: center;
     flex-flow: column-reverse;
     padding: 0px 33px;
-    border-top: 1px solid #7d736d2d;
     margin-bottom: 30px;
 }
 .copyrightbox__text {
