@@ -467,7 +467,8 @@
     width: 100%;
 
 }
-.elerning__platfotm{
+
+.elerning__platfotm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -477,7 +478,8 @@
     gap: 40px;
 
 }
-.platform__conditions{
+
+.platform__conditions {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -488,7 +490,8 @@
     gap: 40px;
 
 }
-.describe__conditions{
+
+.describe__conditions {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -498,11 +501,13 @@
     gap: 30px;
 
 }
-.about__platform--title{
+
+.about__platform--title {
     width: 200PX;
 
 }
-.headline3{
+
+.headline3 {
     font-family: my-font2, serif;
     font-size: 3rem;
     line-height: 36px;
@@ -510,17 +515,20 @@
     color: #ffffff;
 
 }
-.about__platform--describe{
+
+.about__platform--describe {
     width: 100%;
 }
-.platform--describe{
-    font-family: my-font5,serif;
+
+.platform--describe {
+    font-family: my-font5, serif;
     font-size: 1.3rem;
     line-height: 19px;
     color: #FFFFFF;
 
 }
-.conditions{
+
+.conditions {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -531,14 +539,16 @@
     padding-left: 5px;
 
 }
-.iconify3{
-    font-family: my-font5,serif;
+
+.iconify3 {
+    font-family: my-font5, serif;
     font-size: 1.3rem;
     line-height: 19px;
     color: #FFFFFF;
     padding-left: 5px;
 }
-.button4{
+
+.button4 {
     font-family: my-font5, sans-serif;
     background-color: #F97C5F;
     border: none;
@@ -552,21 +562,23 @@
     cursor: pointer;
 
 }
-.button4:hover{
+
+.button4:hover {
     background-color: #ef6c4e;
 
 
 }
-.about__platform--image{
+
+.about__platform--image {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: end;
     align-items: end;
 }
-.platform--image{
-    width: 96%;
 
+.platform--image {
+    width: 96%;
 
 
 }
@@ -706,30 +718,37 @@
         line-height: 21px;
         margin-bottom: 25px;
     }
-    .elerning__platfotm{
+
+    .elerning__platfotm {
         gap: 43px;
     }
-    .platform__conditions{
+
+    .platform__conditions {
         padding-left: 30px;
     }
-    .headline3{
+
+    .headline3 {
         font-size: 3.8rem;
         line-height: 45px;
     }
-    .platform--describe{
+
+    .platform--describe {
         font-size: 1.3rem;
         line-height: 21px;
     }
-    .iconify3{
+
+    .iconify3 {
         font-size: 1.3rem;
         line-height: 21px;
         padding-left: 3px;
 
     }
-    .about__platform--image{
+
+    .about__platform--image {
 
     }
-    .platform--image{
+
+    .platform--image {
         width: 97.5%;
     }
 
@@ -1019,7 +1038,8 @@
 
 
     }
-    .elerning__platfotm{
+
+    .elerning__platfotm {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1027,65 +1047,76 @@
         gap: 10px;
 
     }
-    .describe__conditions{
+
+    .describe__conditions {
         width: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 85px;
     }
-    .headline3{
+
+    .headline3 {
         font-size: 4.3rem;
         line-height: 51px;
         width: 210px;
 
     }
-    .about__platform--describe{
+
+    .about__platform--describe {
         width: 100%;
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
     }
-    .platform--describe{
+
+    .platform--describe {
         width: 222px;
         font-size: 1.4rem;
         line-height: 24px;
         padding-left: 10px;
 
     }
-    .conditions{
+
+    .conditions {
         display: flex;
         justify-content: center;
         width: 200px;
         font-size: 1.4rem;
         line-height: 24px;
     }
-    .platform__conditions{
+
+    .platform__conditions {
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .about__platform--image{
+
+    .about__platform--image {
         width: 50%;
         height: auto;
         display: flex;
         justify-content: end;
         align-items: end;
     }
-    .platform--image{
+
+    .platform--image {
         width: 99%;
         padding-bottom: 220px;
 
     }
-    .about__platform_button{
+
+    .about__platform_button {
         padding-left: 25px;
     }
-    .iconify3{
+
+    .iconify3 {
         font-size: 1.4rem;
         line-height: 24px;
     }
-    .button4{
+
+    .button4 {
         font-size: 1.4rem;
         width: 140px;
         height: 45px;
@@ -1330,36 +1361,41 @@
         line-height: 28px;
 
     }
-    .elerning__platfotm{
+
+    .elerning__platfotm {
         gap: 45px;
     }
-    .platform__conditions{
+
+    .platform__conditions {
         margin-bottom: 50px;
     }
-    .headline3{
+
+    .headline3 {
         width: 250px;
         font-size: 5rem;
         line-height: 60px;
     }
-    .platform--describe{
+
+    .platform--describe {
         width: 300px;
         font-size: 1.6rem;
         line-height: 28px;
         margin-left: 35px;
     }
-    .iconify3{
+
+    .iconify3 {
         font-size: 1.6rem;
         line-height: 28px;
         padding-left: 5px;
     }
-    .button4{
+
+    .button4 {
         font-size: 1.6rem;
         width: 150px;
         height: 50px;
         border-radius: 30px;
 
     }
-
 
 
 }
@@ -1597,23 +1633,27 @@
         line-height: 28px;
 
     }
-    .elerning__platfotm{
+
+    .elerning__platfotm {
         gap: 80px;
     }
-    .platform__conditions{
+
+    .platform__conditions {
         margin-bottom: 160px;
 
     }
-    .about__platform--describe{
-        width:400px;
+
+    .about__platform--describe {
+        width: 400px;
         margin-left: 90px;
 
     }
-    .platform--describe{
+
+    .platform--describe {
         width: 350px;
     }
 
-    .about__platform--image{
+    .about__platform--image {
         width: 730px;
 
     }
