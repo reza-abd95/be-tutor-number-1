@@ -262,9 +262,10 @@
 
 .main__about-us {
     background-image: url("../assets/images/tutor-sectionbg2.jpg");
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    height: auto;
 }
 
 .describe__about-us {
@@ -464,6 +465,7 @@
 .main__elearning--platfotm {
     background-image: url("../assets/images/tutor-sectionbg1.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
 
 }
@@ -474,7 +476,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 140px 0;
+    padding: 120px 0;
     gap: 40px;
 
 }
@@ -588,9 +590,95 @@
 
 }
 
-.main__part7 {
+.main__features {
+    width: 100%;
+    background-image: url("../assets/images/tutor-sectionbg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
+.features_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 33px;
+}
+.our_features{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 57px;
+
+}
+.our_title{
+    text-align: start;
+
+}
+.headline4{
+    font-family: my-font2,serif;
+    font-size: 3rem;
+    line-height: 36px;
+    font-weight:lighter;
+    display: flex;
+    text-align: start;
+
+}
+.features{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.features__sections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+
+}
+.features__img{
+
+}
+.features_title{
+
+
+}
+.our_headline{
+    font-family: my-font2,serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 19px;
+
+
+}
+.features_describe{
+    width: 90%;
+
+
+
+}
+.our_describe{
+    font-family: my-font5,serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 19px;
+    color: #8C817A;
+
+
+}
+
+
+
+
 
 @media screen and (min-width: 500px) {
     .slider-container {
@@ -751,6 +839,27 @@
     .platform--image {
         width: 97.5%;
     }
+    .our_features{
+        width: 90%;
+    }
+    .headline4{
+        font-size: 3.8rem;
+        line-height: 45px;
+    }
+    .features__img{
+        /*padding-bottom: 5px;*/
+    }
+    .our_headline{
+        font-size: 1.5rem;
+        line-height: 23px;
+        padding: 8px 0 0 0;
+    }
+    .our_describe{
+        font-size: 1.3rem;
+        line-height: 21px;
+        padding-bottom: 3px;
+
+    }
 
 }
 
@@ -875,6 +984,10 @@
         border-radius: 20px;
         background-color: #FFF8F3;
 
+    }
+    .main__about-us {
+        width: 100%;
+        height: auto;
     }
 
     .describe__about-us {
@@ -1038,6 +1151,10 @@
 
 
     }
+    .main__elearning--platfotm{
+        width: 100%;
+        height: auto;
+    }
 
     .elerning__platfotm {
         display: flex;
@@ -1122,6 +1239,36 @@
         height: 45px;
         border-radius: 30px;
     }
+    .our_features{
+        width: 695px;
+        gap: 75px;
+    }
+    .headline4{
+        font-size: 4.3rem;
+        line-height: 51px;
+    }
+    .features{
+        width: 695px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+    }
+    .our_headline{
+        font-size: 1.7rem;
+        line-height: 26px;
+    }
+    .features_describe{
+        width: 94%;
+    }
+    .our_describe{
+        font-size: 1.4rem;
+        line-height: 24px;
+        width: 100%;
+    }
+
+
 
 }
 
@@ -1234,6 +1381,10 @@
     .categorie-name {
         font-size: 1.9rem;
     }
+    .main__about-us {
+        width: 100%;
+        height: auto;
+    }
 
     .describe__about-us {
         width: 100%;
@@ -1342,6 +1493,10 @@
 
 
     }
+    .main__elearning--platfotm{
+        width: 1000px;
+        height: auto;
+    }
 
     .describe__section-work {
         width: 320px;
@@ -1360,6 +1515,10 @@
         font-size: 1.8rem;
         line-height: 28px;
 
+    }
+    .main__elearning--platfotm{
+        width: 100%;
+        height: auto;
     }
 
     .elerning__platfotm {
@@ -1396,6 +1555,30 @@
         border-radius: 30px;
 
     }
+    .our_features{
+        width: 920px;
+
+    }
+    .features{
+        width: 100%;
+    }
+    .headline4{
+        font-size: 5rem;
+        line-height: 60px;
+    }
+    .our_headline{
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    .features_describe{
+        width: 100%;
+    }
+    .our_describe{
+        font-size: 1.6rem;
+        line-height: 27px;
+    }
+
+
 
 
 }
@@ -1507,6 +1690,9 @@
     .categorie-name {
         font-size: 1.9rem;
     }
+    .main__about-us {
+        width: 100%;
+    }
 
     .describe__about-us {
         width: 100%;
@@ -1614,6 +1800,9 @@
     .step1_image {
         width: 100%;
     }
+    .main__elearning--platfotm{
+        width: 100%;
+    }
 
     .describe__section-work {
         width: 355px;
@@ -1633,8 +1822,12 @@
         line-height: 28px;
 
     }
+    .main__elearning--platfotm{
+        width: 1600px;
+    }
 
     .elerning__platfotm {
+        /*width: 1040px;*/
         gap: 80px;
     }
 
@@ -1657,6 +1850,13 @@
         width: 730px;
 
     }
+    .our_features{
+        width: 1040px;
+    }
+    .features_describe{
+        width: 250px;
+    }
+
 
 
 }
