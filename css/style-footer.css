@@ -50,6 +50,7 @@
     color: #7d736d;
     font-family: desc;
     white-space: 1rem;
+    line-height: 21px;
 }
 .footer__openingHours {
     width: 100%;
@@ -78,6 +79,8 @@
     font-size: 1.3rem;
     color: #7d736d;
     font-family: desc;
+    line-height: 21px;
+
 }
 .footer__openingHours-satday {
     margin-bottom: 15px;
@@ -87,6 +90,8 @@
     font-size: 1.3rem;
     color: #7d736d;
     font-family: desc;
+    line-height: 21px;
+
 }
 .footer__calltoaction {
     display: flex;
@@ -111,7 +116,7 @@
     border-radius: 50%;
     background-color: #1d262d;
     color: #fff;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
     font-size: 1.6rem;
 }
@@ -145,6 +150,7 @@
     flex-flow: column-reverse;
     padding: 0px 33px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .copyrightbox__text {
     font-size: 1.3rem;
@@ -193,11 +199,14 @@
         width: 480px;
         height: 152px;
     }
+
+
 }
 @media (min-width: 770px) {
     .footer{
         flex-flow: row;
         flex-wrap: nowrap;
+        margin-bottom: 15px;
     } 
     .footer__address-title {
         font-size: 1.7rem;
@@ -240,16 +249,21 @@
         flex-flow: row;
     }
     .copyrightbox__text-link {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .fa-mobile {
         font-size: 3.5rem;
+    }
+    .copyrightbox {
+        margin: 0px auto;
+        width: 695px;
     }
 }
 @media (min-width: 970px) {
     .footer__address {
         width: 295px;
     }
+    
     .footer__openingHours {
         width: 295px;
     }
@@ -264,11 +278,14 @@
     }
     .footer__openingHours-satday {
         font-size: 1.6rem;
+        line-height: 28px;
     }
     .footer__address-text{
+        line-height: 28px;
         font-size: 1.6rem;
     }
     .footer__openingHours-Monday {
+        line-height: 28px;
         font-size: 1.6rem;
     }
     .calltoaction-number {
@@ -280,11 +297,15 @@
     .copyrightbox__text-link {
         font-size: 1.6rem;
     }
-    .copyrightbox {
-        width: 921;
-    }
     .fa-mobile {
         font-size: 4rem;
+    }
+    .copyrightbox {
+        margin: 0px auto;
+        width: 930px;
+    }
+    .copyrightbox__text{
+        font-size: 1.6rem;
     }
 }
 @media (min-width: 1240px) {

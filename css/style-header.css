@@ -1,6 +1,6 @@
 @font-face {
-    font-family: abj;
-    src: url(../assets/fonts/Roboto-Regular.woff2) format("woff2");
+    font-family: DM-Sans-Regular;
+    src: url(../assets/fonts/DM-Sans-Regular.woff2) format("woff2");
 }
 :root {
     --color-primary : #f97c5f;
@@ -98,7 +98,7 @@ display: none;
 }
 .header__button-text {
     color: black;
-    font-family: abj;
+    font-family: DM-Sans-Regular;
     font-size: 1.6rem;
 }
 .fa-angle-right {
@@ -120,7 +120,7 @@ display: none;
     height: 100px;
     padding: 0px 20px;
     font-size: 1.6rem;
-    font-family: abj;
+    font-family: DM-Sans-Regular;
     display: flex;
     align-items: center;
 }
@@ -159,7 +159,7 @@ display: none;
 }
 .slide__list-text {
     font-size: 1.3rem;
-    font-family: abj;
+    font-family: DM-Sans-Regular;
     display: flex;
     align-items: center;
 }
@@ -187,7 +187,7 @@ display: none;
 .slide__button-text {
     text-align: center;
     color: #1D262D;
-    font-family: abj;
+    font-family: DM-Sans-Regular;
     font-size: 1.3rem;
 }
 .slide__button-elements {
@@ -196,7 +196,7 @@ display: none;
     align-items: center;
     width: 140px;
     height: 21px;
-    font-family: abj;
+    font-family: DM-Sans-Regular;
 }
 .fa-angle-right {
     color: red;
@@ -230,6 +230,7 @@ display: none;
     z-index: 3;
     display: none;
 }
+
 @media screen and (min-width: 770px) {
     .header__button {
         display: flex;
