@@ -6,12 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/courses.js"></script>
     <script src="https://kit.fontawesome.com/be532bc8ee.js" crossorigin="anonymous"></script>
+    <script src="../js/script-header.js" defer></script>
     <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/style-header.css">
     <link rel="shortcut icon" href="../assets/images/Be-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Courses</title>
 </head>
-<body>
+<body onscroll="addheadersteaky()">
     <div class="container">
+        <section class="header" id="top">
+            <div class="header__elements">
+                <div class="header__logo">
+                    <a href="#"><img class="header__logo-img" src="../assets/images/retina-tutor.png" alt="logo"></a>
+                </div>
+                <div class="header__icon">
+                    <i class="header__icon-bar"></i>
+                    <i class="header__icon-bar midbar"></i>
+                    <i class="header__icon-bar"></i>
+                </div>
+                <div class="header__menue">
+                    <ul class="header__menue-list">
+                        <li><a href="#" class="header__menue-link"><span class="header__menue-text">Home</span></a></li>
+                        <li><a href="#" class="header__menue-link"><span class="header__menue-text">About</span></a></li>
+                        <li><a href="#" class="header__menue-link"><span class="header__menue-text">Courses</span></a></li>
+                        <li><a href="#" class="header__menue-link"><span class="header__menue-text">E-learning</span></a></li>
+                        <li><a href="#" class="header__menue-link"><span class="header__menue-text">Contact us</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__button">
+                <div class="header__button-box">
+                    <span class="header__button-text">Buy now</span>
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="header__slide">
+                <div class="header__slide-close">
+                    <i class="material-icons closeicon">close</i>
+                    <i class="fa fa-x"></i>
+                </div>
+                <div class="header__slide-button">
+                    <div class="slide__button-box">
+                        <div class="slide__button-elements">
+                            <span class="slide__button-text">Buy now</span>
+                            <i class="fa fa-angle-right slide-angle-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__slide-list">
+                    <ul class="slide__list">
+                        <li class="slide__list-element"><a href="#" class="slide__list-link"><span class="slide__list-text">Home</span></a></li>
+                        <li class="slide__list-element"><a href="#" class="slide__list-link"><span class="slide__list-text">About</span></a></li>
+                        <li class="slide__list-element"><a href="#" class="slide__list-link"><span class="slide__list-text">Courses</span></a></li>
+                        <li class="slide__list-element"><a href="#" class="slide__list-link"><span class="slide__list-text">E-learning</span></a></li>
+                        <li class="slide__list-element"><a href="#" class="slide__list-link"><span class="slide__list-text">Contact us</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dark-container">
+            </div>
+        </section>
         <div class="subheader">
             <div class="subheader__container">
              <h1 class="subheader__title">Courses</h1>
