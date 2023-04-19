@@ -1083,7 +1083,7 @@ a {
         height: auto;
         display: flex;
         flex-direction: row;
-        padding: 100px 0 100px 30px;
+        padding: 100px 0 100px 45px;
         gap: 40px;
 
     }
@@ -1512,7 +1512,7 @@ a {
 
     .describe__about-us {
         width: 100%;
-        padding: 100px 0 100px 20px;
+        padding: 100px 0 100px 40px;
         gap: 40px;
 
     }
@@ -1688,6 +1688,7 @@ a {
     }
 
     .our_features {
+        padding: 0 8px;
         width: 920px;
 
     }
@@ -2038,6 +2039,7 @@ a {
 
     .our_features {
         width: 1040px;
+        padding: 0;
     }
 
     .features_describe {
