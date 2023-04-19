@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-size: 10px;
 }
+a {
+    text-decoration: none;
+}
 
 @font-face {
     font-family: my-font;
