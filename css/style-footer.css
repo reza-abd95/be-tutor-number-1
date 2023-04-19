@@ -20,6 +20,7 @@
     width: 100%;
     padding: 70px 33px;
     border-bottom: 1px solid #7d736d2d;
+    overflow: hidden;
 }
 .footer__address {
     width: 100%;
@@ -190,14 +191,18 @@
     .footer__address {
         width: 480px;
         height: 152px;
+        padding: 15px 10px;
     }
     .footer__openingHours {
         width: 480px;
         height: 152px;
+        padding: 15px 10px;
+
     }
     .footer__calltoaction {
         width: 480px;
-        height: 152px;
+        height: 152px;       
+        padding: 15px 10px;
     }
 
 
@@ -240,6 +245,7 @@
         width: 222px;
         height: 180px;
         justify-content: start;
+        padding: 15px 0;
     }
     .calltoaction-text {
         font-size: 1.5rem;
@@ -311,9 +317,13 @@
 @media (min-width: 1240px) {
     .footer__address {
         width: 333px;
+        padding: 15px 0;
+
     }
     .footer__openingHours {
         width: 333px;
+        padding: 15px 0;
+
     }
     .footer__calltoaction {
         width: 333px;
