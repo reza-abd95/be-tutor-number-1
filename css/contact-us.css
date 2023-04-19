@@ -164,6 +164,8 @@
 .number-txt {
     font-size: 7rem;
     color: var(--color-primery);
+    font-family: tit;
+    font-weight: normal;
 }
 .number__box-title {
     color: var(--color-title-black);
@@ -179,6 +181,7 @@
     font-size: 2.4rem;
     width: 100%;
     text-align: center;
+    font-weight: normal;
 }
 .hr-narrow {
     color: rgba(0,0,0,.08);
