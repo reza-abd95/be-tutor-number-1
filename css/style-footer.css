@@ -1,0 +1,338 @@
+@font-face {
+    font-family: desc;
+    src: url(../assets/fonts/DM-Sans-Regular.woff2);
+}
+@font-face {
+    font-family: tit;
+    src: url(../assets/fonts/DM-Serif-Display-Regular.woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    padding: 70px 33px;
+    border-bottom: 1px solid #7d736d2d;
+    overflow: hidden;
+}
+.footer__address {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 15px 0;
+    margin-top: 30px;
+    background-color: #fff;
+    flex-flow: column;
+}
+.footer__address-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: tit;
+}
+.footer__address-text {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #7d736d;
+    font-family: desc;
+    white-space: 1rem;
+    line-height: 21px;
+}
+.footer__openingHours {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 15px 0;
+    margin-top: 30px;
+    flex-flow: column;
+}
+.footer__openingHours-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: tit;
+}
+.footer__openingHours-Monday {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #7d736d;
+    font-family: desc;
+    line-height: 21px;
+
+}
+.footer__openingHours-satday {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #7d736d;
+    font-family: desc;
+    line-height: 21px;
+
+}
+.footer__calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.footer__calltoaction-social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.socialbox {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #1d262d;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.socialbox:hover{
+    background-color: #f97c5f ;
+}
+.fa-mobile {
+    font-size: 2.7rem;
+    padding-left: 8px;
+    color: #f97c5f;
+}
+.calltoaction-number {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 2.4rem;
+    font-family: tit;
+    color: #1d262d;
+    text-align: right;
+}
+.calltoaction-text {
+    color: #7d736d;
+    font-family: desc;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.copyrightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column-reverse;
+    padding: 0px 33px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.copyrightbox__text {
+    font-size: 1.3rem;
+    color: #7d736d;
+    font-family: desc;
+}
+.copyrightbox__text-link {
+    text-decoration: none;
+    color: #1d262d;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: desc;
+}
+.copyrightbox__top {
+    cursor: pointer;
+}
+.fa-angle-up {
+    color: #7d736d;
+    margin-bottom: 10px;
+    font-size: 2.8rem !important;
+    font-weight: 100 !important;
+    margin: 15px 0px;
+}
+@media (min-width: 480px) {
+    .footer__address-title {
+        font-size: 1.5rem;
+    }
+    .footer__openingHours-title {
+        font-size: 1.5rem;
+    }
+    .footer {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__address {
+        width: 480px;
+        height: 152px;
+        padding: 15px 10px;
+    }
+    .footer__openingHours {
+        width: 480px;
+        height: 152px;
+        padding: 15px 10px;
+
+    }
+    .footer__calltoaction {
+        width: 480px;
+        height: 152px;       
+        padding: 15px 10px;
+    }
+
+
+}
+@media (min-width: 770px) {
+    .footer{
+        flex-flow: row;
+        flex-wrap: nowrap;
+        margin-bottom: 15px;
+    } 
+    .footer__address-title {
+        font-size: 1.7rem;
+    }
+    .footer__openingHours-title {
+        font-size: 1.7rem;
+    }
+    .footer__openingHours-Monday {
+        font-size: 1.5rem;
+    }
+    .footer__openingHours-satday {
+        font-size: 1.5rem;
+    }
+    .footer__address-text{
+        font-size: 1.5rem;
+    }
+    .calltoaction-number {
+        font-size: 2.7rem;
+    }
+    .footer__address {
+        width: 222px;
+        height: 180px;
+        justify-content: start;
+    }
+    .footer__openingHours {
+        width: 222px;
+        height: 180px;
+        justify-content: start;
+    }
+    .footer__calltoaction {
+        width: 222px;
+        height: 180px;
+        justify-content: start;
+        padding: 15px 0;
+    }
+    .calltoaction-text {
+        font-size: 1.5rem;
+    }
+    .copyrightbox {
+        justify-content: space-between;
+        flex-flow: row;
+        padding-bottom: 15px;
+    }
+    .copyrightbox__text-link {
+        font-size: 1.4rem;
+    }
+    .fa-mobile {
+        font-size: 3.5rem;
+    }
+    .copyrightbox {
+        margin: 0px auto;
+        width: 695px;
+    }
+}
+@media (min-width: 970px) {
+    .footer__address {
+        width: 295px;
+    }
+    
+    .footer__openingHours {
+        width: 295px;
+    }
+    .footer__calltoaction {
+        width: 295px;
+    }
+    .footer__address-title {
+        font-size: 2rem;
+    }
+    .footer__openingHours-title {
+        font-size: 2rem;
+    }
+    .footer__openingHours-satday {
+        font-size: 1.6rem;
+        line-height: 28px;
+    }
+    .footer__address-text{
+        line-height: 28px;
+        font-size: 1.6rem;
+    }
+    .footer__openingHours-Monday {
+        line-height: 28px;
+        font-size: 1.6rem;
+    }
+    .calltoaction-number {
+        font-size: 3.2rem;
+    }
+    .calltoaction-text {
+        font-size: 1.6rem;
+    }
+    .copyrightbox__text-link {
+        font-size: 1.6rem;
+    }
+    .fa-mobile {
+        font-size: 4rem;
+    }
+    .copyrightbox {
+        margin: 0px auto;
+        width: 930px;
+    }
+    .copyrightbox__text{
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 1240px) {
+    .footer__address {
+        width: 333px;
+        padding: 15px 0;
+
+    }
+    .footer__openingHours {
+        width: 333px;
+        padding: 15px 0;
+
+    }
+    .footer__calltoaction {
+        width: 333px;
+    }
+    .copyrightbox {
+        margin: 0px auto;
+        width: 1060px;
+    }
+}
+
