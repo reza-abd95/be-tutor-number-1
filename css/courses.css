@@ -1,6 +1,5 @@
 @import url(../css/slider.css);
 
-
 @font-face {
   font-family: DM-Sans-Regular;
   src: url(../assets/fonts/DM-Sans-Regular.woff2);
@@ -317,7 +316,6 @@ a{
   } 
   .categories__Container{
     width: 1040px;
-  
   }
   .categories__box__container{
     width: 20%;
@@ -325,7 +323,6 @@ a{
   .post{
     width: 1040px;
     gap: 20px;
- 
   }
   .post__box{
     width: 31.5%;

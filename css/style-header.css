@@ -86,7 +86,7 @@ display: none;
 }
 .header__button-box{
     width: 100%;
-    padding: 10px 35px;
+    padding: 10px 40px;
     background-color: #fff;
     display: flex;
     justify-content: space-evenly;
@@ -100,11 +100,11 @@ display: none;
 .header__button-text {
     color: black;
     font-family: DM-Sans-Regular;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .fa-angle-right {
     color: var(--color-primary);
-    font-size: 2.1rem !important;
+    font-size: 1.6rem !important;
     padding-left: 10px;
 }
 .header__menue-list {
@@ -201,7 +201,7 @@ display: none;
 }
 .fa-angle-right {
     color: red;
-    font-size: 2.1rem !important;
+    font-size: 1.6rem !important;
     padding-left: 10px;
 }
 .closeicon {
@@ -268,9 +268,12 @@ display: none;
     .header__elements{
         justify-content: space-between;
         width: 712px;
-        }
+    }
     .slide__list-text{
-    font-size: 1.6rem;
+        font-size: 1.6rem;
+    }
+    .header__button-text {
+        font-size: 1.6rem;
     }
 }
 @media screen and (min-width: 1240px) {
