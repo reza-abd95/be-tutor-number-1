@@ -891,8 +891,8 @@ a {
         width: 97.5%;
     }
     .our-courses{
-        width: 100%;
-        padding-left: 60px;
+        width: 480px;
+        padding-left: 0;
     }
     .title_post a{
         font-size: 1.5rem;
@@ -1329,7 +1329,8 @@ a {
         border-radius: 30px;
     }
     .our-courses{
-        padding-left: 52px;
+        width: 695px;
+        padding-left: 0;
         padding-bottom: 70px;
     }
     .title_post a{
@@ -1689,6 +1690,10 @@ a {
     .our_features {
         width: 920px;
 
+    }
+    .our-courses{
+        width: 920px;
+        padding-left: 8px;
     }
     .title_post a{
         font-size: 2rem;
