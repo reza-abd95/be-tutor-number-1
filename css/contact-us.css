@@ -164,7 +164,7 @@
 .number-txt {
     font-size: 7rem;
     color: var(--color-primery);
-    font-family: tit;
+    font-family: desc;
     font-weight: normal;
 }
 .number__box-title {
@@ -370,6 +370,7 @@
     }
     .number__title-text {
         width: 163px;
+        font-weight: normal;
     }
     .number__box-description {
         width: 163px;
@@ -377,6 +378,7 @@
     }
     .number__title-text {
         font-size: 2.7rem;
+        font-weight: normal;
     }
     .sendmail__input {
         width: 410px;
@@ -437,13 +439,15 @@
     }
     .number__title-text {
         width: 216px;
+        font-weight: normal;
     }
     .number__box-description {
         width: 216px;
         font-size: 1.6rem;
     }
     .number__title-text {
-        font-size: 3.2rem;
+        font-size: 3rem;
+        font-weight: normal;
     }
     .sendmail__input {
         width: 545px;
