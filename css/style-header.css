@@ -11,6 +11,11 @@
     padding: 0;
     font-size : 10px;
 }
+::selection {
+    color: white;
+    background: #f97c5f;
+}
+
 .header {
     display: flex;
     justify-content: center;
