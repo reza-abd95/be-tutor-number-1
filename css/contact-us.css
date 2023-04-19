@@ -1,4 +1,477 @@
-.contact-us{
+@font-face {
+    font-family: desc;
+    src: url(../assets/fonts/DM-Sans-Regular.woff2);
+}
+@font-face {
+    font-family: tit;
+    src: url(../assets/fonts/DM-Serif-Display-Regular.woff2);
+}
+:root {
+    --color-primery : #f97c5f;
+    --color-text-gray : #7d736d;
+    --color-title-black : #1d262d;
+    --color-input-backgroune : #fff8f3;
+}
+*{
+  padding: 0;  
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 0px 33px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.contact__input {
+    padding-right: 10%;
+}
+.contact__input-title {
+    display: flex;
+    text-align: start;
+    justify-content: center;
     width: 100%;
-    height: 1000px;
+    font-family: tit;
+}
+.input-subtitle {
+    color: var(--color-title-black);
+    font-size: 3.0rem;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 36px;
+    font-family: tit;
+    font-weight: normal;
+}
+.input {
+    background-color: var(--color-input-backgroune);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+    color: var(--color-title-black);
+    font-family: desc;
+}
+.input:focus {
+    border: none;
+    outline: none;
+    background-color: #fff0ec;
+    font-family: desc;
+}
+.input::placeholder {
+    color: #858585;
+    font-size: 1.3rem;
+    font-family: desc;
+}
+.textarea::placeholder {
+    color: #858585;
+    font-size: 1.3rem;
+    font-family: desc;
+}
+.name {
+    width: 100%;
+}
+.email {
+    width: 100%;
+}
+.subject {
+    width: 100%;
+}
+.textarea{
+    width: 100%;
+}
+.contact__input-button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: desc;
+}
+.buttun-txt {
+    width: 98px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: desc;
+}
+.sendData-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primery);
+    padding: 10px 35px;
+    color: white;
+    cursor: pointer; 
+    border-radius: 50px;
+    font-family: desc;
+}
+.sendData-discription {
+    display: none;
+    color: var(--color-text-gray);
+}
+.contact__data {
+    background-color: var(--color-input-backgroune);
+    padding-top: 80px;
+    padding-bottom: 65px;
+    padding-right: 59px;
+    padding-left: 59px;
+    width: 100%;
+    margin-top: 20px;
+}
+.contact__data-title {
+    color: var(--color-text-gray);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-family: desc;
+}
+.contact__data-text {
+    margin-bottom: 15px;
+    color: var(--color-title-black);
+    font-size: 1.3rem;
+    font-family: tit;
+    font-weight: normal;
+}
+
+
+/*.............. section number styles .............*/
+
+
+.number {
+    padding: 0px 33px;
+    height: 777px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+}
+.number__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+.number__box-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-txt {
+    font-size: 7rem;
+    color: var(--color-primery);
+}
+.number__box-title {
+    color: var(--color-title-black);
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: tit;
+    font-weight: normal;
+}
+.number__title-text {
+    font-size: 2.4rem;
+    width: 100%;
+    text-align: center;
+}
+.hr-narrow {
+    color: rgba(0,0,0,.08);
+    margin-bottom: 15px;
+}
+.number__box-description {
+    color: var(--color-text-gray);
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    font-family: desc;
+}
+.sendmail {
+    padding: 120px 33px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url(../assets/images/tutor-sectionbg1.jpg);
+}
+.sendmail__title {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: tit;
+    font-weight: normal;
+}
+.sendmail__input {
+    background-color: var(--color-input-backgroune);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    height: 38px;
+    font-family: desc;
+}
+.sendmail__input:focus {
+    border: none;
+    outline: none;
+    font-family: desc;
+}
+.sendmail__input::placeholder {
+    font-size: 1.3rem;
+    color: #858585;
+    font-family: desc;
+}
+.mail-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.button__signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primery);
+    padding: 10px 35px;
+    color: white;
+    cursor: pointer; 
+    border-radius: 50px;
+    width: 142px;
+    margin-right: 10px;
+    font-family: desc;
+}
+.buttun__signin-text{
+    width: 98px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: desc;
+}
+@media (min-width: 550px) {
+    .input-subtitle {
+        font-size: 3.8rem;
+    }
+    .input::placeholder {
+        font-size: 1.4rem;
+    }
+    .textarea::placeholder {
+        font-size: 1.4rem;
+    }
+    .input {
+        font-size: 1.4rem;
+    }
+    .contact__input {
+        padding-right: 48px;
+    }
+    .contact__data {
+        padding-right: 72px;
+        padding-left: 72px;
+    }
+    .contact__data-text {
+        font-size: 1.5rem;
+    }
+    .input-subtitle {
+        height: 45px;
+    }
+    .contact__data {
+        padding-right: 72px;
+        padding-left: 72px;
+        width: 500px;
+        height: 413px;
+    }
+    .sendmail__title {
+        font-size: 3.8rem;
+    }
+}
+@media (min-width: 770px) {
+    .contact {
+        flex-flow: row;
+        justify-content: center;
+        align-items: start;
+    }
+    .input-subtitle {
+        height: 51px;
+    }
+    .contact__data {
+        margin-top: 0px;
+    }
+    .contact__input {
+        padding-right: 41px;
+        width: 410px;
+        margin-right: 20px;
+    }
+    .contact__data {
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 269px;
+        height: 463px;
+    }
+    .name {
+        width: 177px;
+    }
+    .email {
+        width: 177px;
+    }
+    .input::placeholder {
+        font-size: 1.3rem;
+    }
+    .textarea::placeholder {
+        font-size: 1.3rem;
+    }
+    .input {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .buttun-txt {
+        font-size: 1.3rem;
+        width: 105px;
+        height: 17.6px;
+    }
+    .contact__data-text {
+        font-size: 1.7rem;
+    }
+    .contact__data-title {
+        font-size: 1.4rem;
+    }
+    .input-subtitle {
+        font-size: 4.3rem;
+        height: 51px;
+    }
+    .form-userdata {
+        display: flex;
+        justify-content: space-between;
+    }
+    .number-txt {
+        font-size: 8rem;
+    }
+    .number {
+        flex-flow: row;
+        height: unset;
+        padding-bottom: 80px;
+        width: 708px;
+        margin: 0 auto;
+    }
+    .number__box-text {
+        width: 163px;
+    }
+    .number__title-text {
+        width: 163px;
+    }
+    .number__box-description {
+        width: 163px;
+        font-size: 1.4rem;
+    }
+    .number__title-text {
+        font-size: 2.7rem;
+    }
+    .sendmail__input {
+        width: 410px;
+    }
+    .sendmail__title {
+        font-size: 4.3rem;
+    }
+}
+@media (min-width: 970px) {
+    .input-subtitle {
+        font-size: 5rem;
+        height: 60px;
+    }
+    .contact__input {
+        padding-right: 54px;
+        width: 545px;
+    }
+    .name {
+        width: 237px;
+    }
+    .email {
+        width: 237px;
+    }
+    .contact__data {
+        padding-right: 54px;
+        padding-left: 54px;
+        width: 357px;
+        height: 469px;
+    }
+    .contact__data-text {
+        font-size: 2rem;
+    }
+    .contact__data-title {
+        font-size: 1.6rem;
+    }
+    .buttun-txt {
+        font-size: 1.5rem;
+        width: 120px;
+        height: 20px;
+    }
+    .input::placeholder {
+        font-size: 1.4rem;
+    }
+    .textarea::placeholder {
+        font-size: 1.4rem;
+    }
+    .input {
+        font-size: 1.4rem;
+    }
+    .number{
+        width: 940px;
+    }
+    .number-txt {
+        font-size: 9rem;
+    }
+    .number__box-text {
+        width: 216px;
+    }
+    .number__title-text {
+        width: 216px;
+    }
+    .number__box-description {
+        width: 216px;
+        font-size: 1.6rem;
+    }
+    .number__title-text {
+        font-size: 3.2rem;
+    }
+    .sendmail__input {
+        width: 545px;
+    }
+    .sendmail__title {
+        font-size: 5rem;
+    }
+}
+@media (min-width: 1240px) {
+    .contact__data {
+        padding-right: 60px;
+        padding-left: 60px;
+        width: 403px;
+    }
+    .contact__input {
+        padding-right: 61px;
+        width: 615px;
+    }
+    .name {
+        width: 266px;
+    }
+    .email {
+        width: 266px;
+    }
+    .number {
+        width: 1060px;
+    }
+    .sendmail__input {
+        width: 614px;
+    }
+    .sendmail__title {
+        font-size: 5rem;
+    }
 }
