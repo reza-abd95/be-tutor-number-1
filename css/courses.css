@@ -90,6 +90,7 @@ a{
 }
 .post__img img{
   width: 100%;
+  cursor: pointer;
 }
 .post__like{
   display: flex;
@@ -326,6 +327,10 @@ a{
   }
   .post__box{
     width: 31.5%;
+  }
+  .post__time{
+    margin-top: 20px;
+    padding: 10px 0 0 0;
   }
 }
 

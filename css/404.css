@@ -1,0 +1,43 @@
+.error404{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container img{
+    width: 100%;
+    padding: 120px 33px 20px;
+}
+
+
+@media (min-width: 550px) {
+
+
+    .error-container img{
+        width: 480px;
+        /* padding: 50px 0; */
+
+    }
+  }
+@media (min-width: 770px) {
+
+    .error-container img{
+        width: 695px;
+        
+    }
+  }
+  @media (min-width: 970px) {
+    
+    .error-container img{
+        width: 920px;
+    }
+
+  }
