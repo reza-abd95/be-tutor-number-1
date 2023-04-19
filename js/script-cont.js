@@ -1,5 +1,5 @@
 let valueDisplays = document.querySelectorAll(".number-txt");
-let interval = 1000;
+let interval = 7000;
         console.log(valueDisplays);
         valueDisplays.forEach((valueDisplay) => {
             let startvalue = 0;
