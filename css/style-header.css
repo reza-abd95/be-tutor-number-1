@@ -36,7 +36,7 @@
     align-items: center;
     background-color: #fff;
     padding: 0px 50px;
-    border-bottom: 1px solid #ffdbc6;
+    border-bottom: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -258,7 +258,7 @@ display: none;
         padding: unset;
     }
     .headersteaky {
-        background-color: #fff;
+        background-color: #fffffff5;
         height: 60px;
     }
     .header__logo{
