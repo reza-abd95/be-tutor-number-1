@@ -247,6 +247,10 @@ a {
     cursor: pointer;
     transition: 1s;
 
+
+}
+.category a{
+    color: #1D262D;
 }
 
 .category:hover {
